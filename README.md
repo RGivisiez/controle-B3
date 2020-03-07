@@ -22,7 +22,7 @@ pois usa o google finances e as planilhas do google spreadsheets.
   - Mostra o lucro por mês.
   ![spreadsheet](img/lucro_mes.png)
   
-  - Mostra o lucro da carteira atual.
+  - Mostra o lucro da carteira atual entre outras coisas.
   ![carteira](img/carteira_lucro.png)
   ![carteira_perc](img/carteira_lucro_perc.png)
   ![carteira_qnt](img/carteira_quantidade.png)

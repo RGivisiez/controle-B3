@@ -12,6 +12,8 @@ pois usa o google finances e as planilhas do google spreadsheets.
 
 **TODO:**
   - Explicar como são adicionadas as planilhas no google.
+  - Separar os ativos pelo nome da corretora.
+  - Fazer o notebook com o IR.
 
 **Utilidades:**
 

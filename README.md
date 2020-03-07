@@ -12,13 +12,23 @@ pois usa o google finances e as planilhas do google spreadsheets.
 
 **TODO:**
   - Explicar como são adicionadas as planilhas no google.
+  - Separar os ativos pelo nome da corretora.
+  - Fazer o notebook com o IR.
 
 **Utilidades:**
 
   - Cria a carteira de ações no google spreasheet, onde podemos acompanhar os
   valores das ações com delay de 20 min.
+  ![spreadsheet](img/google_spreadsheet.png)
+    
   - Mostra o lucro por mês.
-  - Mostra o lucro por ação por mês.
+  ![spreadsheet](img/lucro_mes.png)
+  
+  - Mostra o lucro da carteira atual entre outras coisas.
+  ![carteira](img/carteira_lucro.png)
+  ![carteira_perc](img/carteira_lucro_perc.png)
+  ![carteira_qnt](img/carteira_quantidade.png)
+  
   - Ajuda na declaração do imposto de renda. 
 
 

@@ -1,9 +1,8 @@
 # Controle B3
 
-  Notebook para o controle de compras e vendas de ações.
-
-  Este notebook foi feito para ser usado no [Colab][colab] do google,
-pois usa o google finances e as planilhas do google spreadsheets.
+  - **datasets.ipynb:** Gera o dataset que vai ser usado nos outros notebooks.
+  - **Acompanhamento das ações.ipynb:** Para acompanhar a carteira de ações e gerar o google spreadsheet.
+  - **Imposto de renda.ipynb:** Ajuda no imposto de renda. (Work in progress)
   
 **Como usar:**
 

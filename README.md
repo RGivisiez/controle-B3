@@ -21,12 +21,13 @@
   ![spreadsheet](img/google_spreadsheet.png)
     
   - Mostra o lucro por mês.
-  ![spreadsheet](img/lucro_mes.png)
+  ![carteira_lucro](img/lucro_mes.png)
   
   - Mostra o lucro da carteira atual entre outras coisas.
   ![carteira](img/carteira_lucro.png)
   ![carteira_perc](img/carteira_lucro_perc.png)
   ![carteira_qnt](img/carteira_quantidade.png)
+  ![proventos](img/proventos.png)
   
   - Ajuda na declaração do imposto de renda. 
 

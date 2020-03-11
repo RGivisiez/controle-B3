@@ -35,3 +35,7 @@
 [CEI]: https://cei.b3.com.br/CEI_Responsivo/login.aspx
 [B3]: http://www.b3.com.br/pt_br/
 [colab]: https://colab.research.google.com/notebooks/welcome.ipynb
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).

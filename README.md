@@ -7,7 +7,7 @@
 **Como usar:**
 
   É necessário baixar a planilha com as informações sobre compras e vendas de ações do site da [B3][B3]. Para isso, basta entrar no [CEI][CEI], que é o Canal Eletrônico do Investidor. Este site é gerenciado pela própria [B3][B3] e contém informações sobre seus títulos no tesouro direto, ações, CDB e etc.
-   Depois de acessar a página do [CEI][CEI] é só ir em: Extratos e informativos -> Negociações de Ativos. Você deve ver a opção de baixar a planilha por excel nesta página.
+   Depois de acessar a página do [CEI][CEI] é só ir em: Extratos e informativos -> Negociações de Ativos, você deve ver a opção de baixar a planilha por excel nesta página.
 
 **TODO:**
   - Explicar como são adicionadas as planilhas no google.

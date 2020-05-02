@@ -1,0 +1,9 @@
+Pacotes necessários para o uso dos notebooks:
+
+	- pandas        (Usado em todos)
+	- numpy         (Usado em todos)
+	- ipywidgets    (Para o IR)
+	- matplotlib    (Para o IR e Acompanhamento)
+	- seaborn       (Para o IR e Acompanhamento)
+	- gspread       (Para o Acompanhamento)
+	- oauth2client  (Para o Acompanhamento)

@@ -11,8 +11,6 @@
 
 **TODO:**
   - Explicar como são adicionadas as planilhas no google.
-  - Separar os ativos pelo nome da corretora.
-  - Fazer o notebook com o IR.
 
 **Utilidades:**
 

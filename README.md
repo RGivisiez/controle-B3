@@ -1,34 +1,41 @@
 # Controle B3
 
+Os notebooks desse projeto servem para acompanhar os rendimentos das ações e fazer o imposto de renda. Basicamente, o acompanhamento das ações é feito usando o Google Spreadsheet, o que permite saber os rendimentos em "tempo real".
+
+![spreadsheet](img/google_spreadsheet.png)
+
+<div>
+<img src="img/carteira_lucro.png" width="49%"/>
+<img src="img/lucro_mes.png" width="49%"/>
+</div>
+
+## Como usar:
+
+  É necessário baixar a planilha com as informações sobre compras e vendas de ações do site da [B3][B3]. Para isso, basta entrar no [CEI][CEI], que é o Canal Eletrônico do Investidor. Este site é gerenciado pela própria [B3][B3] e contém informações sobre seus títulos no tesouro direto, ações, CDB e etc.
+   Depois de acessar a página do [CEI][CEI] é só ir em: Extratos e informativos -> Negociações de Ativos, você deve ver a opção de baixar a planilha por excel nesta página. Após isso, você deve usar o notebook ```datasets.ipynb``` para gerar os datasets que serão utiilzados pelos outros notebooks.
+
+**O que cada notebook faz:**
+
   - **datasets.ipynb:** Gera o dataset que vai ser usado nos outros notebooks.
   - **Acompanhamento das ações.ipynb:** Para acompanhar a carteira de ações e gerar o google spreadsheet.
   - **Imposto de renda.ipynb:** Ajuda no imposto de renda. (Work in progress)
-  
-**Como usar:**
+ 
+**Pacotes usados pelos notebooks:**
 
-  É necessário baixar a planilha com as informações sobre compras e vendas de ações do site da [B3][B3]. Para isso, basta entrar no [CEI][CEI], que é o Canal Eletrônico do Investidor. Este site é gerenciado pela própria [B3][B3] e contém informações sobre seus títulos no tesouro direto, ações, CDB e etc.
-   Depois de acessar a página do [CEI][CEI] é só ir em: Extratos e informativos -> Negociações de Ativos, você deve ver a opção de baixar a planilha por excel nesta página.
+	- pandas        (Usado em todos)
+	- numpy         (Usado em todos)
+	- ipywidgets    (Para o IR)
+	- matplotlib    (Para o IR e Acompanhamento)
+	- seaborn       (Para o IR e Acompanhamento)
+	- gspread       (Para o Acompanhamento)
+	- oauth2client  (Para o Acompanhamento)
+
+## License
+
+See the [LICENSE](notion://www.notion.so/LICENSE.md) file for license rights and limitations (License type).
 
 **TODO:**
   - Explicar como são adicionadas as planilhas no google.
-
-**Utilidades:**
-
-  - Cria a carteira de ações no google spreasheet, onde podemos acompanhar os
-  valores das ações com delay de 20 min.
-  ![spreadsheet](img/google_spreadsheet.png)
-    
-  - Mostra o lucro por mês.
-  ![carteira_lucro](img/lucro_mes.png)
-  
-  - Mostra o lucro da carteira atual entre outras coisas.
-  ![carteira](img/carteira_lucro.png)
-  ![carteira_perc](img/carteira_lucro_perc.png)
-  ![carteira_qnt](img/carteira_quantidade.png)
-  ![proventos](img/proventos.png)
-  
-  - Ajuda na declaração do imposto de renda. 
-
 
 [CEI]: https://cei.b3.com.br/CEI_Responsivo/login.aspx
 [B3]: http://www.b3.com.br/pt_br/
